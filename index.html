@@ -6,30 +6,47 @@
     <title>Vanessa Bizzell Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/images/icon.svg" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="stylesheet.css"
-  </head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <body>
-    <header class="">
-      <div id="navbar" class=""></div>
-      <div id="icon" class=""></div>
+    <header class="bg-[#e7dadf]">
+        <nav class="flex flex-row">
+            <a id="icon" class="flex justify-start self-center basis-1/4 size-12 px-4 py-2" href="index.html">
+                <img src="images/logo.svg" alt="letter V inside a hexagon">
+            </a>
+            <div class="flex justify-end self-center basis-3/4 gap-x-2 px-5 text-xs">
+                <a class="px-3 py-1 text-center text-[#474448] font-medium hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="about.html">About</a>
+                <a class="px-3 py-1 text-center text-[#474448] font-medium hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="portfolio.html">Portfolio</a>
+                <a class="py-1 px-6 text-center text-[#474448] font-medium hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="cv.html">CV</a>
+                <a class="px-3 py-1 text-center text-[#474448] font-medium hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="contact.html">Contact</a>
+            </div>
+        </nav>
     </header>
     <main>
-      <section id="introText" class="">
-        <h1 class="">Vanessa Bizzell</h1>
-        <h2 class="">I am a software developer based in Sheffield</h2>
-        <h3 class="">blurb about why I am amazing</h3>
-        <button id="contact" class="">CONTACT ME</button>
+      <section id="introText" class="bg-[#f1f0ea] flex flex-col items-center">
+        <h1 class="pt-16 text-5xl tracking-tight font-extrabold text-[#20232e]">Vanessa Bizzell</h1>
+        <h2 class="pt-1 text-2xl tracking-wide font-base text-[#534b52]">I am a software developer based in Sheffield</h2>
+        <h3 class="pt-1 text-lg font-normal text-[#534b52]">blurb about why I am amazing</h3>
+        <a href="contact.html">
+            <button class="mt-8 mb-24 drop-shadow bg-[#534b52] hover:bg-[#20232e] text-[#f1f0ea] font-semibold py-1 px-4 text-base md:text-base md:font-semibold
+             md:py-4 md:px-6 rounded-full">
+        CONTACT ME
+            </button>
+          </a>
       </section>
-      <section id="projects" class="">
-        <h4 class="">Projects</h4>
-        <h5 class="">Some of my latest work...</h5>
-        <div id="projectOne" class>
+      <!-- <section id="projects" class="bg-[#474448]">
+        <h4 class="pt-8 pl-8 text-2xl font-bold text-[#f1f0ea]">Projects</h4>
+        <h5 class="pt-1 pl-8 text-1xl font-semibold text-[#f1f0ea]">Some of my latest work...</h5>
+        <div id="projectCard" class ="grid grid-cols-3 grid-rows-2 gap-4">
           <img src="" alt="" />
-          <p id="projectTextOne" class=""></p>
+          <div class="container">
+          <p id="projectTextOne" class="">project description</p>
           <button id="viewProject" class="">View Project</button>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="">social media icons here</footer>
+    <footer class="bg-[#e7dadf] flex items-center">social media icons here</footer>
   </body>
 </html>
