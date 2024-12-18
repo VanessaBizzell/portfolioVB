@@ -11,45 +11,65 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <body class="bg-[#f1f0ea]">
+    <div class="mx-auto w-full max-w-screen-xl px-4 md:px-20 ">
     <header class="bg-[#e7dadf]">
         <nav class="flex flex-col md:flex-row py-2">
-            <a id="icon" class="flex justify-start self-center basis-1/2 md:basis-1/4 size-12 px-4 py-1" href="index.html">
+            <a id="icon" class="hidden md:flex justify-start self-center basis-1/2 md:basis-1/4 size-12 px-4 py-1" href="index.html">
                 <img src="images/logo.svg" alt="letter V inside a hexagon">
             </a>
             <div class="flex justify-end self-center basis-1/2 md:basis-3/4 gap-x-2 px-5 text-base font-medium  text-center text-[#474448]">
                 <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="index.html">About</a>
                 <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="portfolio.html">Portfolio</a>
                 <a class="px-3 py-1  hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="cv.html">CV</a>
-                <a class="px-3 py-1 font-semibold text-[#F1F0EA] bg-[#534b52] hover:drop-shadow-md rounded-full" href="contact.html">Contact</a>
+                <a class="px-3 py-1 font-semibold text-[#F1F0EA] bg-[#20232e] hover:drop-shadow-md rounded-full" href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
     <main>
-      <section id="introText" class="bg-[#f1f0ea] flex container mx-auto h-dvh flex-col items-center text-center">
-        
-        <!-- <img src="images/Coding A Website.svg" class="pt-8"> -->
-        <h2 class="pt-24 text-1xl md:text-3xl tracking-wide font-light text-[#534b52]">My name is</h2>
-        <h1 class="pt-2 text-5xl md:text-6xl tracking-tight font-extrabold text-[#20232e]">Vanessa Bizzell</h1>
-        <h2 class="pt-1 text-1xl md:text-4xl tracking-wide font-base text-[#534b52]">I am a software developer based in Sheffield</h2>
-        <h3 class="pt-3 text-base md:text-2xl font-light text-[#534b52]">blurb about why I am amazing</h3>
-        <a href="contact.html">
-            <button class="mt-8 mb-24 drop-shadow hover:drop-shadow-lg bg-[#534b52] hover:bg-[#20232e] text-[#f1f0ea] font-semibold py-1 px-4 text-base md:text-base md:font-semibold
-             md:py-4 md:px-6 rounded-full">
-        CONTACT ME
-            </button>
-          </a>
-      </section>
-      <!-- <section id="projects" class="bg-[#474448]">
-        <h4 class="pt-8 pl-8 text-2xl font-bold text-[#f1f0ea]">Projects</h4>
-        <h5 class="pt-1 pl-8 text-1xl font-semibold text-[#f1f0ea]">Some of my latest work...</h5>
-        <div id="projectCard" class ="grid grid-cols-3 grid-rows-2 gap-4">
-          <img src="" alt="" />
-          <div class="container">
-          <p id="projectTextOne" class="">project description</p>
-          <button id="viewProject" class="">View Project</button>
+      <!-- CONTACT FORM -->
+      <div class="my-6 drop-shadow-lg">
+        <div class="grid sm:grid-cols-2 items-start gap-14 p-8 mx-auto max-w-4xl bg-[#e7dadf] shadow-[0_2px_10px_-3px_[rgba(6,81,237,0.3])] rounded-md font-[sans-serif]">
+            <div>
+                <h1 class="text-[#474448] text-3xl font-extrabold">Let's Talk</h1>
+                <p class="text-sm text-[#534b52] mt-4">Reach out - I would love to hear about your project!</p>
+
+                <div class="my-12">
+                    <h2 class="text-[#474448] text-base font-bold">Email</h2>
+                    <ul class="mt-4">
+                        <li class="flex items-center">
+                            <div class="bg-[#f1f0ea] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#534b52'
+                                    viewBox="0 0 479.058 479.058">
+                                    <path
+                                        d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                                        data-original="#000000" />
+                                </svg>
+                            </div>
+                            <a href="javascript:void(0)" class="text-[#474448] text-sm ml-4">
+                                <small class="block">Mail</small>
+                                <strong>vanessabizzell@gmail.com</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>            
+
+            <form class="ml-auo space-y-4">
+                <input type='text' placeholder='Name'
+                    class="w-full bg-[#f1f0ea] text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-[#534b52]" />
+                <input type='email' placeholder='Email'
+                    class="w-full bg-[#f1f0ea] text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-[#534b52]" />
+                <input type='text' placeholder='Subject'
+                    class="w-full bg-[#f1f0ea] text-gray-800 rounded-md py-2.5 px-4 border text-sm outline-[#534b52]" />
+                <textarea placeholder='Message' rows="6"
+                    class="w-full bg-[#f1f0ea] text-gray-800 rounded-md px-4 border text-sm pt-2.5 outline-[#534b52]"></textarea>
+                <button type='button'
+                    class="text-[#f1f0ea] bg-[#20232e] hover:bg-[#534b52] rounded-md text-md px-4 py-3 w-full !mt-6">SEND</button>
+            </form>
         </div>
-      </section> -->
+    </div>
+     
     </main>
+    <!-- Footer with socials -->
     <footer class="bg-[#e7dadf] flex flex-row justify-center gap-8 py-4">
     <a id="linkedin" class="" href="https://www.linkedin.com/in/vanessa-bizzell-6a020711">
       <img src="images/Linkedin.svg" alt="Linked In logo">
@@ -57,9 +77,7 @@
     <a id="github" class="" href="https://github.com/VanessaBizzell">
       <img src="images/Github.svg" alt="Github logo">
     </a>
-    <a id="slack" class="" href="https://thedeveloperacademy.slack.com/team/U081PFJP1R8">
-      <img src="images/Slack.svg" alt="Slack logo">
-    </a>
   </footer>
+  </div>
   </body>
 </html>
