@@ -8,84 +8,134 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  </head>
   <body class="bg-[#F1F0EA]">
-  <div class="mx-auto w-full max-w-screen-xl px-4 md:px-20 ">
-    <header class="bg-[#e7dadf]">
-      <!-- navbar -->
+    <div class="mx-auto w-full max-w-screen-xl px-4 md:px-20 ">
+      <header class="bg-[#e7dadf]">
+        <!-- navbar -->
         <nav class="flex flex-col md:flex-row py-2">
-            <a id="icon" class="hidden md:flex justify-start self-center basis-1/2 md:basis-1/4 size-12 px-4 py-1" href="index.html">
-                <img src="images/logo.svg" alt="letter V inside a hexagon">
-            </a>
-            <div class="flex justify-end self-center basis-1/2 md:basis-3/4 gap-x-2 px-5 text-base font-medium  text-center text-[#474448]">
-                <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="index.html">About</a>
-                <a class="px-3 py-1 font-semibold text-[#F1F0EA] bg-[#20232e] drop-shadow rounded-full" href="portfolio.html">Portfolio</a>
-                <a class="px-3 py-1  hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="cv.html">CV</a>
-                <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="contact.html">Contact</a>
-            </div>
+          <a id="icon" class="hidden md:flex justify-start self-center basis-1/2 md:basis-1/4 size-12 px-4 py-1" href="index.html">
+            <img src="images/logo.svg" alt="letter V inside a hexagon">
+          </a>
+          <div class="flex justify-end self-center basis-1/2 md:basis-3/4 gap-x-2 px-5 text-base font-medium text-center text-[#474448]">
+            <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="index.html">About</a>
+            <a class="px-3 py-1 font-semibold text-[#F1F0EA] bg-[#20232e] drop-shadow rounded-full" href="portfolio.html">Portfolio</a>
+            <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="cv.html">CV</a>
+            <a class="px-3 py-1 hover:font-semibold hover:text-[#F1F0EA] hover:bg-[#534b52] hover:drop-shadow-md rounded-full" href="contact.html">Contact</a>
+          </div>
         </nav>
-    </header>
-    <main>
-      <!-- projects title -->
-      <section id="projectTitle" class="bg-[#474448]">
-        <h4 class="pt-8 pl-8 text-3xl font-bold text-[#e0ddcf] tracking-wide">Projects</h4>
-        <h5 class="pt-1 pb-5 pl-8 text-1xl  font-medium text-[#e0ddcf]">Some of my latest work...</h5>
-      </section>
-      
-      <section id = "projectCardsDisplay" class="bg-[#474448] grid grid-cols-1 gap-y-7 sm:grid-cols-3 gap-x-7 px-8 pb-14">
-        <!-- Card One - BunLife website -->
-        <div id="projectCardOne" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md  p-2">
-          <a target="_blank" href="https://ibb.co/CVMPfQQ"><img src="https://i.ibb.co/SVdfzBB/96be545d935.png" alt="laptop on table with rabbit website on screen" border="0" class="p-2 w-full" /></a>
-          <p class="px-2 font-semibold text-lg text-[#474448]">BunLife Website</p>
-          <p class="px-2 font-normal text-sm text[#534b52]">Simple website to share the joys of keeping pet rabbits and best-care principles. Created using HTML, CSS and tailwindCSS. </p>
-          <a href="projectOne.html">
-            <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
-            <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold
-             md:py-1 rounded-md ">
-             &#9655 View Project
-            </button>
-          </p>
-          </a> 
-        </div>
-        <!-- Card Two - Fantasy Book Map Quiz -->
-        <div id="projectCardTwo" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md  p-2">
-          <a target="_blank" href="https://ibb.co/nsb1G11"><img src="https://i.ibb.co/qMdgSgg/quiz-mobile.png" alt="mobile phone in hands showing map quiz start page" border="0" class="p-2 w-full" /></a> 
-          <p class="px-2 font-semibold text-lg text-[#474448]">Fantasy Book Map Quiz</p>
-          <p class="px-2 font-normal text-sm text[#534b52]">Fun quiz to test your knowledge of book maps from the Fantasy genre. Created using Javascript, HTML and tailwindCSS. </p>
-          <a href="projectTwo.html">
-            <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
-            <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold
-             md:py-1 rounded-md ">
-             &#9655 View Project
-            </button>
-          </p>
-          </a> 
-        </div> 
-        <!-- Card Three - Text adventure Game -->
-        <div id="projectCardOne" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md  p-2">
-          <a target="_blank" href="https://ibb.co/5KsZbhS"><img src="https://i.ibb.co/Y0fgHB1/text-game-map.png" alt="castle game diagram displayed on tablet held over a table." border="0" class="p-2 w-full" /></a>
-          <p class="px-2 font-semibold text-lg text-[#474448]">Castle Text Adventure Game</p>
-          <p class="px-2 font-normal text-sm text[#534b52]">Text-only adventure game - step back in time! Using object orientated programming principles (OOP). Created using Javascript, HTML and tailwindCSS. </p>
-          <a href="projectThree.html">
-            <p class="text-center pt-2 pb-3 text-[#e0ddcf]">
-            <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold
-             md:py-1 rounded-md ">
-             &#9655 View Project
-            </button>
-          </p>
-          </a> 
-        </div>     
-      </section>
-    </main>
-    <!-- footer with socials -->
-    <footer class="bg-[#e7dadf] flex flex-row justify-center gap-8 py-4">
-    <a target="_blank" id="linkedin" class="" href="https://www.linkedin.com/in/vanessa-bizzell-6a020711">
-      <img src="images/Linkedin.svg" alt="Linked In logo">
-    </a>
-    <a target="_blank" id="github" class="" href="https://github.com/VanessaBizzell">
-      <img src="images/Github.svg" alt="Github logo">
-  </footer>
-  </div>
+      </header>
+      <main>
+        <!-- projects title -->
+        <section id="projectTitle" class="bg-[#474448]">
+          <h4 class="pt-8 pl-8 text-3xl font-bold text-[#e0ddcf] tracking-wide">Projects</h4>
+          <h5 class="pt-1 pb-5 pl-8 text-1xl font-medium text-[#e0ddcf]">Some of my latest work...</h5>
+        </section>
+        
+        <section id="projectCardsDisplay" class="bg-[#474448] grid grid-cols-1 gap-y-7 sm:grid-cols-3 gap-x-7 px-8 pb-14">
+          <!-- Card One - Writing App -->
+          <div id="projectCardOne" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+            <div>
+              <img src="https://i.ibb.co/8nNRPz74/writing-App-Prompt.jpg" alt="young author looking at desktop screen with daily writing prompt displayed. Books and pens on desk" class="p-2 w-full" />
+              <p class="px-2 font-semibold text-lg text-[#474448]">Creative Writing App</p>
+              <p class="px-2 font-normal text-sm text[#534b52]">Creative Writing app that provides a daily writing prompt and creates a library of author's work. Created using Javascript in a React/NextJS framework with tailwindCSS. API built using Express and MongoDB.</p>
+            </div>
+            <a href="projectOne.html">
+              <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                  &#9655 View Project
+                </button>
+              </p>
+            </a>
+          </div>
+           <!-- Card Two - Soundwave App -->
+          <div id="projectCardTwo" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+            <div>
+              <img src="https://i.ibb.co/vvLLXW05/sound-Wave-Feed.jpg" alt="desktop screen with yellow display showing a soundwave with music pictures and posts" class="p-2 w-full" />
+              <p class="px-2 font-semibold text-lg text-[#474448]">Soundwave Music Sharing App</p>
+              <p class="px-2 font-normal text-sm text[#534b52]">Music Sharing app built using Typescript in an Angular Framework. API built using Typescript/Express and a MongoDB database. Allows users to upload their own music and share with others for comments and likes. </p>
+            </div>
+            <a href="projectTwo.html">
+              <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                  &#9655 View Project
+                </button>
+              </p>
+            </a>
+          </div>
+               <!-- Card Three - Weather App -->
+               <div id="projectCardThree" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+                <div>
+                  <img src="https://i.ibb.co/nqPgBG1p/weather-App-Laptop.jpg" alt="open laptop displaying a picture of a cabin by a lake with clouds. Weather forcast displayed on cards with temperature, precipitation and windspeed." class="p-2 w-full" />
+                  <p class="px-2 font-semibold text-lg text-[#474448]">Weather App</p>
+                  <p class="px-2 font-normal text-sm text[#534b52]">Weather app that displays weather by selected location. Built using javascript, HTML and tailwindCSS, the app utilises the OpenWeather API to provide current and forcast weather data in a user-friendly display.</p>
+                </div>
+                <a href="projectThree.html">
+                  <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                    <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                      &#9655 View Project
+                    </button>
+                  </p>
+                </a>
+              </div>
+          <!-- Card Four - Fantasy Book Map Quiz -->
+          <div id="projectCardFour" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+            <div>
+              <img src="https://i.ibb.co/YFjSkXgs/book-Quiz-Mobile.jpg" alt="mobile phone in hands showing map quiz start page" class="p-2 w-full" />
+              <p class="px-2 font-semibold text-lg text-[#474448]">Fantasy Book Map Quiz</p>
+              <p class="px-2 font-normal text-sm text[#534b52]">Fun quiz to test your knowledge of book maps from the Fantasy genre. Created using Javascript, HTML and tailwindCSS.</p>
+            </div>
+            <a href="projectFour.html">
+              <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                  &#9655 View Project
+                </button>
+              </p>
+            </a>
+          </div>
+          <!-- Card Five - Text adventure Game -->
+          <div id="projectCardFive" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+            <div>
+              <img src="https://i.ibb.co/DscwpNB/text-Game-Map.jpg" alt="castle game diagram displayed on tablet held over a table." class="p-2 w-full" />
+              <p class="px-2 font-semibold text-lg text-[#474448]">Castle Text Adventure Game</p>
+              <p class="px-2 font-normal text-sm text[#534b52]">Text-only adventure game - step back in time! Using object orientated programming principles (OOP). Created using Javascript, HTML and tailwindCSS.</p>
+            </div>
+            <a href="projectFive.html">
+              <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                  &#9655 View Project
+                </button>
+              </p>
+            </a>
+          </div>
+               <!-- Card Six -Social Media App-->
+          <div id="projectCardSix" class="bg-[#F1F0EA] rounded-lg drop drop-shadow-md p-2 flex flex-col justify-between">
+            <div>
+              <img src="https://i.ibb.co/HLb2wQ5K/social-Media-Mobile.jpg" alt="hands holding a mobile phone. Phone display shows a social media post with a cardboard robot and a comment" class="p-2 w-full" />
+              <p class="px-2 font-semibold text-lg text-[#474448]">Social Media App</p>
+              <p class="px-2 font-normal text-sm text[#534b52]">A simple social media app that allows the user to post images with commentary and receive likes. This was built using Javascript and React in the NextJS framework. </p>
+            </div>
+            <a href="projectSix.html">
+              <p class="text-center pt-7 pb-3 text-[#e0ddcf]">
+                <button class="mt-2 mb-2 w-11/12 drop-shadow hover:drop-shadow-lg bg-[#20232e] hover:bg-[#534b52] hover:text-[#e7dadf] py-1 text-xsm md:text-sm md:font-semibold md:py-1 rounded-md">
+                  &#9655 View Project
+                </button>
+              </p>
+            </a>
+          </div>
+        </section>
+      </main>
+      <!-- footer with socials -->
+      <footer class="bg-[#e7dadf] flex flex-row justify-center gap-8 py-4">
+        <a target="_blank" id="linkedin" class="" href="https://www.linkedin.com/in/vanessa-bizzell-6a020711">
+          <img src="images/Linkedin.svg" alt="Linked In logo">
+        </a>
+        <a target="_blank" id="github" class="" href="https://github.com/VanessaBizzell">
+          <img src="images/Github.svg" alt="Github logo">
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
